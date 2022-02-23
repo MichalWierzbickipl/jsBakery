@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,700&display=swap"
+    rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;700&family=Kumbh+Sans:wght@400;700&family=Lato:ital,wght@1,300&display=swap" rel="stylesheet">
+    <script src="index.js" defer async></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="counter">
+        <p class="notEnoughFlour">Ilość mąki: <span class="flour">100</span>kg</p>
+        <button class="buyFlourButton">Zakup mąkę</button>
+        <p>Liczba ulepionych ciastowych kul: <span class="cookies">0</span></p>
+      </div>
+      <div id="myProgress">
+        <div id="myBar"></div>
+      </div>
+      <div class="cookie-button">
+        <button class="btn" onclick="move()">Ulep ciasto</button>
+      </div>
+      <div class="table"></div>
+      <div>
+        <p>Liczba ulepionych ciastek: <span class="bakedCookies">0</span></p>
+      </div>
+      <div class="cookie-oven-button">
+        <button class="oven-button">Włóż ciastko do pieca</button>
+      </div>
+      <div>
+          <p class="notEnoughSpaceInOven">Liczba ciastek w piecu: <span class="bakingCookies">0</span>/9</p>
+      </div>
+      <div class="oven">
+      </div>
+      <div>
+        <p>Liczba gotowych ciastek: <span class="readyCookies">0</span></p>
+        <p>Zarobiliśmy: <span class="plny">0</span> PLN</p>
+      </div>
+    </div>
+  </body>
+</html>
